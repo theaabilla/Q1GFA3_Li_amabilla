@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #586A6A;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    height: 10vh;
+    width: 100%;
+    border: 20px black;
+}
+.banner{
+    background-color: #DAD4EF;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+}
+
+.logo{
+    width:40px;
+    height:40px;
+    float: left;
+    border-radius: 50%;
+}
+.logo img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin: 5px;
+    padding-top: 5px;
+}
+
+#aboutus {
+    background-color: #D4C5C7;
+}
+#aboutus a{
+    color:  #505159;
+}
+
+#conclu{
+    background-color: #D4C5C7;
+}
+#conclu a{
+    color: #505159;
+}
+#quanti{
+    background-color: #D4C5C7;
+}
+#quanti a{
+    color:  #505159;
+}
+
+#quali{
+    background-color: #D4C5C7;
+}
+#quali a{
+    color:  #505159;
+}
+
+#intro{
+    background-color: #D4C5C7;
+}
+#intro a{
+    color:  #505159;
+}
+
+.links{
+    border-radius: 5%;
+    margin-top: 25px;
+    opacity: 0.7;
+    transition: .4s;
+    float: right;
+    display: inline;
+    font-family: Lucidia Consol;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    margin-top: 20px;
+}
+
+.links:hover{
+    opacity: 1;
+    transition: .4s;
+    font-size: larger;
+    font-family: Lucidia Consol;
+}
+
+.links a{
+     text-decoration: none;
+}
+
+.introductiontext h3{
+    color: #505159;
+    font-size: 3em;
+    text-align: left;
+    font-family: San Francisco Display;
+    margin-left: 25px;
+}
+
+.introductiontext p{
+    color:#011936;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.footer{
+    padding: 0px;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: #586A6A;
+    height: 50px;
+    border: 20px black;
+    margin-bottom: 0px;
+    position: absolute;
+    height: 10vh;
+    width: 100%;
+}
+
+.socialmedias{
+    float: right;
+    border: 0vh solid;
+    padding: 13px;
+    border-radius: 50%;  
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.copyrights{
+    padding: 21px;
+    float:left;
+    color: #E6F8FF;
+    font-family: Courier New;
+}
+.rounds{
+    border-radius: 50%;
+}
