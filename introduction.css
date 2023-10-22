@@ -92,7 +92,7 @@
     opacity: 1;
     transition: .4s;
     font-size: larger;
-    font-family: Lucidia Consol;
+    font-family: 'Lucidia Consol';
 }
 
 .links a{
@@ -101,19 +101,33 @@
 
 .introductiontext h3{
     color: #505159;
-    font-size: 3em;
+    font-size: 4em;
     text-align: left;
-    font-family: San Francisco Display;
+    font-family: 'San Francisco Display', sans-serif;
     margin-left: 25px;
 }
 
-.introductiontext p{
+.introtext p{
     color:#011936;
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
     padding-left: 25px;
     font-size: 20px;
-    margin-left: 5px;
+}
+
+.introtext a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 18px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #011936;
+    margin-top: 15px;
+    font-family: Arial Black;
+    color: white;
+    font-weight: 500px;
+    margin-left: 25px;
+    border-radius: 6%;
 }
 
 .footer{
@@ -129,6 +143,7 @@
     position: absolute;
     height: 10vh;
     width: 100%;
+    position: fixed;
 }
 
 .socialmedias{
